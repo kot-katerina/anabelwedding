@@ -1,0 +1,49 @@
+.logo {
+    width: 45%;
+    align-self: flex-end;
+    margin-top: 27px;
+    margin-right: 3px;
+}
+
+.logo__burger {
+    width: 50%;
+    max-width: 247px;
+    margin: 15px auto;
+}
+
+.logo__footer {
+    width: 50%;
+    max-width: 203px;
+    margin: 50px auto 15px;
+}
+
+@media (min-width: 550px) and (max-width: 749px) {
+    
+}
+
+@media (min-width: 750px) and (max-width: 1000px) {
+    .logo__burger {
+        display: none;
+    }
+
+    .logo {
+        width: 35%;
+        align-self: flex-end;
+        margin-top: 47px;
+        margin-right: 3%;
+    }
+}
+
+@media (min-width: 1001px) {
+    .logo__burger {
+        display: none;
+    }
+
+    .logo {
+        width: 35%;
+        max-width: 397px;
+        align-self: flex-end;
+        margin-top: 2%;
+        margin-right: 15%;
+    }
+}

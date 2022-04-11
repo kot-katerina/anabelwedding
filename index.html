@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.css">
+    <title>Свадебный салон Anabel</title>
+</head>
+<body class="page">
+
+    <div class="preloader" id="page-preloader">
+        <div class="loader">
+            <img src="./images/menu-image.svg" alt="Картинка загрузки" class="loader__image">
+        </div>
+    </div>
+
+    <div class="fullscreen">
+        <header class="header">
+            <div class="info">
+                <p class="info__text info__text_adress">144131 Санкт-Петербург,<br> ул. Дыбенко 24</p>
+                <p class="info__text info__text_phone">+7 921 144 45 45</p>
+            </div>
+            <div class="menu">
+                <div class="menu__button">
+                    <img src="./images/menu-image.svg" alt="Кнопка меню" class="menu__image">
+                    <div class="menu__line"></div>
+                </div>
+                <div class="burger-menu">
+                    <img src="./images/image-logo.svg" alt="Логотип 'Свадебный салон ANABEL'" class="logo__burger">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#about-us" class="menu__link">О нас</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#directions" class="menu__link">Услуги</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#price" class="menu__link">Цены</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#feedback" class="menu__link">Отчеты</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#contacts" class="menu__link">Контакты</a>
+                        </li>
+                        <li class="menu__item">
+                            <img src="./images/decor.png" alt="" class="menu__list-image">
+                        </li>
+                    </ul>
+                    <p class="info__text  info__text_burger">+7 921 144 45 45</p>
+                </div>
+            </div>
+        </header>
+        <section class="mainscreen">
+            <img src="./images/image-logo.svg" alt="Логотип 'Свадебный салон ANABEL'" class="logo">
+            <div class="mainscreen__info">
+                <h1 class="mainscreen__text">Начни свою<br> свадьбу<br> сегодня</h1>
+            </div>
+        </section>
+    </div>
+
+    <main class="main">
+
+        <section class="hidden-form">
+            <div class="hidden-form__header">
+                <div class="hidden-form__button"></div>
+            </div>
+            <div class="hidden-form__cover">
+                <h3 class="hidden-form__title">Узнать, свободна ли<br> моя дата</h3>
+                <form action="#" class="form_hidden-form">
+                    <input type="text" class="hidden-form__input" value="Ваше имя">
+                    <input type="tel" class="hidden-form__input" value="Телефон">
+                    <input type="text" class="hidden-form__input" value="Планируемая дата">
+                    <div class="hidden-form__wrapper">
+                        <input type="checkbox" id="check">
+                        <label for="check" class="hidden-form__text">Принимаю условия <span>«Соглашения об обработке персональных данных»</span></label>
+                    </div>
+                    <button class="hidden-form__btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="directions" id="directions">
+            <div class="hidden-blocks">
+                    <div class="hidden-blocks__header">
+                        <div class="hidden-blocks__button"></div>
+                    </div>
+            </div>
+            <div class="buttons">
+                <div class="buttons__cover">
+                    <button class="directions__btn key">Свадьба под ключ</button>
+                    <button class="directions__btn decor">Оформление свадьбы</button>
+                    <button class="directions__btn registration">Выездная регистрация</button>
+                </div>
+            </div>
+            <div class="directions__wrapper">
+                <form class="directions-form">
+                    <input type="text" class="directions-form__input" value="Ваше имя">
+                    <input type="tel" class="directions-form__input" value="Телефон">
+                    <input type="email" class="directions-form__input" value="E-mail">
+                    <button class="directions-form__button">Заказать свадьбу</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="about-us" id="about-us">
+            <div class="about-us__cover">
+                <h2 class="about-us__title">О нас</h2>
+                <p class="about-us__text">Мы создаем незабываемые выездные регистрации. Наполненные традициями, церемониями, сюрпризами и многим другим.</p>
+                <p class="about-us__text">Для каждой пары составляется индивидуальный сценарий выездной регистрации и всего торжества в целом.</p>
+                <p class="about-us__text">Мы дарим спокойствие и уверенность, что Ваш день будет таким о каком Вы и мечтали!</p>
+                <p class="about-us__text">Наша профессиональная команда специалистов, поможет Вам воплотить Вашу мечту!</p>
+                <img src="./images/decor.png" alt="Декоративный элемент 'Вензель'" class="about-us__image">
+            </div>
+        </section>
+
+        <section class="statistics">
+            <div class="statistics__cover">
+                <h2 class="statistics__title">Наша статистика</h2>
+                <p class="statistic__number" data-target="32">0</p>
+                <p class="statistics__text">Свадьбы проведено</p>
+                <p class="statistic__number" data-target="16">0</p>
+                <p class="statistics__text">Выездных регистраций</p>
+                <p class="statistic__number" data-target="28">0</p>
+                <p class="statistics__text">Свадебных оформлений</p>
+            </div>
+        </section>
+
+        <section class="steps">
+            <div class="steps__cover">
+                <h2 class="steps__title">Планирование свадьбы</h2>
+                <img src="./images/venz.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Определяем формат и масштаб праздника</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Расчитываем количество гостей</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Разрабатываем общий стиль свадьбы с учётом интересов и особенностей пары</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Составляем смету</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Обсуждаем бюджет с учётом приоритетов пары</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Составляем договор</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Выбираем площадку под мероприятие с дальнейшим посещением</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Дегустация блюд, оценка работы персонала и удобства для гостей</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Подбираем команду : стилист, декоратор, фото- и видеосъёмка. ведущий. По желанию-артисты.</p>
+                <img src="./images/spiral.svg" alt="декоративный элемент" class="steps__image">
+                <p class="steps__text">Составление тайминга и координация мероприятия</p>
+            </div>
+        </section>
+
+        <section class="price" id="price">
+            <div class="cost">
+                <h2 class="cost__title">Стоимость проведения</h2>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Ведущие и DJ</p>
+                    <p class="cost__text">от 16 000 - 45 000 руб./мероприятие Стоимость зависит от выбора ведущего, адреса мероприятия, количества часов работы.</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Фотографы</p>
+                    <p class="cost__text">от 16 000 - 60 000 руб./полный день Стоимость зависит от выбора фотографа, наполненности пакета, наличия фото-альбома.</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Видеографы</p>
+                    <p class="cost__text">от 17 000 - 70 000 руб./полный день Стоимость зависит от выбора видеографа, наполненности пакета, количества специалистов, количества камер и дополнительной аппаратуры.</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">SDE съёмка <span>- 10 000 руб.</span></p>
+                    <p class="cost__text">(Свадебный клип, который демонстрируется в конце банкета)</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Оформление зала</p>
+                    <p class="cost__text">от 12 000 руб. и выше Стоимость зависит от ваших пожеланий, выбора цветов и декоративных элементов.</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Букет невесты <span>- 5 000 руб.</span></p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Бутоньерка жениха <span>- от 250 руб.</span></p>
+                    <p class="cost__text">При заказе букета невесты - бутоньерка для жениха в подарок.</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Флористика</p>
+                    <p class="cost__text">Цветочная композиция на стол молодоженов - от 7000 руб. за 1м цветочной композиции</p>
+                </div>
+                <div class="cost__card">
+                    <p class="cost__subtitle">Пригласительные</p>
+                    <p class="cost__text">Разработка дизайна пригласительных, создание макета - 1500 руб.</p>
+                </div>
+            </div>
+            <div class="packages">
+                <button class="packages__btn standart">Пакет “ Стандарт “</button>
+                <button class="packages__btn optimal">Пакет “ Оптимальный “</button>
+                <button class="packages__btn premium">Пакет “ Премиум “</button>
+            </div>
+            <div class="invisible-block">
+                <div class="invisible-block__header">
+                    <div class="invisible-block__button"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="feedback">
+            <h2 class="portfolio__title">Отчёты со свадеб</h2>
+            <div class="portfolio__cover">
+                <div class="portfolio__card first">
+                    <div class="portfolio__pic">
+                        <img src="./images/photo-2.png" alt="" class="portfolio__image portfolio__image_small">
+                    </div>
+                    <p class="portfolio__text">Свадьба Дмитрия и Оксаны<br> 01.06.2020 г.</p>
+                </div>
+                <div class="portfolio__card">
+                    <div class="portfolio__pic">
+                        <img src="./images/photo-1.png" alt="" class="portfolio__image portfolio__image_big">
+                    </div>
+                    <p class="portfolio__text portfolio__text_centr">Свадьба Ивана и Марии<br> 14.05.2020 г.</p>
+                </div>
+                <div class="portfolio__card">
+                    <div class="portfolio__pic">
+                        <img src="./images/photo-2.png" alt="" class="portfolio__image portfolio__image_small">
+                    </div>
+                    <p class="portfolio__text">Свадьба Петра и Ирины<br> 24.08.2020 г.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <h2 class="feedback__title">Отзывы</h2>
+            <div class="feedback__cover">
+                <div class="swiper container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="./images/venz.svg" alt="" class="swipe__img">
+                                <p class="slide__text">Наша свадьба состоялась 21 августа 2020 года. Все прошло идеально! В такой важный день у меня совершенно не было беспокойства как все организовано и все ли идёт хорошо. Мы сами были гостями на своём мероприятии. Все работало как часы, до мельчайших деталей, нам оставалось только улыбаться и наслаждаться моментом, все остальное было сделано за нас.</p>
+                                <p class="slide__text slide__text_name">Александра Р.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="./images/venz.svg" alt="" class="swipe__img">
+                                <p class="slide__text">Я в восторге. Организация мероприятия на высшем уровне. Все продумано до мелочей, начиная от моего букета и бутоньерки жениха, заканчивая украшением и координацей гостей. Праздник вышел ярким, запоминающимся и веселым. Я наслаждалаь праздником и не отвлекалась на организационные моменты. Всё работало, как часы.</p>
+                                <p class="slide__text slide__text_name">Анастасия Я.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide">
+                                <img src="./images/venz.svg" class="swipe__img">
+                                <p class="slide__text">Спасибо всем и каждому в отдельности человеку в ANABEL, кто сделал нашу свадьбу самым (не побоюсь этого слова) счастливым и запоминающимся днём на данном этапе жизни! Я чувствовала себя, как принцесса, которая попала в сказку. Мне помогли подобрать удивительный образ, в этом же стиле был оформлен зал. Сказака началась с первых минут торжества.</p>
+                                <p class="slide__text slide__text_name">Виктория В.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-big">
+                    <div class="slide">
+                        <img src="./images/venz.svg" alt="" class="swipe__img">
+                        <p class="slide__text">Наша свадьба состоялась 21 августа 2020 года. Все прошло идеально! В такой важный день у меня совершенно не было беспокойства как все организовано и все ли идёт хорошо. Мы сами были гостями на своём мероприятии. Все работало как часы, до мельчайших деталей, нам оставалось только улыбаться и наслаждаться моментом, все остальное было сделано за нас.</p>
+                        <p class="slide__text slide__text_name">Александра Р.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/venz.svg" alt="" class="swipe__img">
+                        <p class="slide__text">Я в восторге. Организация мероприятия на высшем уровне. Все продумано до мелочей, начиная от моего букета и бутоньерки жениха, заканчивая украшением и координацей гостей. Праздник вышел ярким, запоминающимся и веселым. Я наслаждалаь праздником и не отвлекалась на организационные моменты.</p>
+                        <p class="slide__text slide__text_name">Анастасия Я.</p>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/venz.svg" alt="" class="swipe__img">
+                        <p class="slide__text">Спасибо всем и каждому в отдельности человеку в ANABEL, кто сделал нашу свадьбу самым (не побоюсь этого слова) счастливым и запоминающимся днём на данном этапе жизни! Я чувствовала себя, как принцесса, которая попала в сказку. Мне помогли подобрать удивительный образ, в этом же стиле был оформлен зал. Сказака началась с первых минут торжества.</p>
+                        <p class="slide__text slide__text_name">Виктория В.</p>
+                    </div>
+                </div>
+                <div class="swiper-button-prev">
+                    <img src="./images/btn-left.svg">
+                </div>
+                <div class="swiper-button-next">
+                    <img src="./images/btn-right.svg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <img src="./images/image-logo.svg" alt="Логотип 'Свадебный салон ANABEL'" class="logo__footer">
+        <img src="./images/venz.svg" alt="Декоративный элемент" class="footer__decor">
+        <div class="footer__cover">
+            <ul class="menu__list_footer">
+                <li class="menu__item_footer">
+                    <a href="#about-us" class="menu__link_footer">О нас</a>
+                </li>
+                <li class="menu__item_footer">
+                    <a href="#directions" class="menu__link_footer">Услуги</a>
+                </li>
+                <li class="menu__item_footer">
+                    <a href="#price" class="menu__link_footer">Цены</a>
+                </li>
+                <li class="menu__item_footer">
+                    <a href="#feedback" class="menu__link_footer">Отчеты</a>
+                </li>
+                <li class="menu__item_footer">
+                    <a href="#contacts" class="menu__link_footer">Контакты</a>
+                </li>
+            </ul>
+            <div class="footer__info">
+                <p class="footer__text footer__text_adress">Адрес</p>
+                <p class="footer__text">144131 Санкт-Петербург,<br> ул. Дыбенко 224</p>
+                <p class="footer__text footer__text_phone">+7 921 144 45 45</p>
+                <p class="footer__text">happywedding@mail.ru</p>
+            </div>
+            <div class="footer__social">
+                <img src="./images/vk.svg" alt="" class="footer__image">
+                <img src="./images/tele.svg" alt="" class="footer__image">
+                <img src="./images/wats.svg" alt="" class="footer__image">
+            </div>
+        </div>
+        <div class="footer__wrapper">
+            <a href="#" class="footer__link" target="_blank">Сайт сделан в студии web-дизайна <span>MAKO</span></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
